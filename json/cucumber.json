@@ -1,0 +1,701 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9238468292,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to Open Browser",
+            "match": {
+              "location": "Login.user_able_to_Open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1576960250,
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome\u003d113.0.5672.92)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Monas-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:4c1:73b0:f4d5:66b6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.3\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/sc/2bb0v27s497...}, goog:chromeOptions: {debuggerAddress: localhost:52663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 14a03e05dfbcfeda0f2da2990cf80b1b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat StepDefinition.Login.enter_url(Login.java:23)\n\tat ✽.And Enter url(Login.feature:4)\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Enter url",
+            "match": {
+              "location": "Login.enter_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "NopCommerce Valid Login Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-valid-login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User click on Login Link",
+            "match": {
+              "location": "Login.user_click_on_Login_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User on Login Page and Verify Login page Title",
+            "match": {
+              "location": "Login.user_on_Login_Page_and_Verify_Login_page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter \"minalthakor1223@gmail.com\" and \"Mona23\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "minalthakor1223@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Mona23",
+                  "offset": 44
+                }
+              ],
+              "location": "Login.user_enter_and_and_click_on_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Login.user_is_on_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User close the Browser",
+            "match": {
+              "location": "Login.user_close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23954426124,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to Open Browser",
+            "match": {
+              "location": "Login.user_able_to_Open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8402315625,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter url",
+            "match": {
+              "location": "Login.enter_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User Enter Invalid Login Test",
+        "description": "",
+        "id": "nopcommerce-login;user-enter-invalid-login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user Click on LoginButton",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User on login Page and Verify Login page Title",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User Enter InValid\"123@.com\"and Enter a valid\"mona\" and click on LoginButton",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User Should not LoginPage",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User Close Browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NopCommerce Login",
+    "description": "",
+    "id": "nopcommerce-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8638879083,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to open Browser",
+            "match": {
+              "location": "Registration.user_able_to_open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4008950583,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter Url",
+            "match": {
+              "location": "Registration.enter_Url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": ":NopCommerce Valid Registration Test",
+        "description": "",
+        "id": "nopcommerce-register;:nopcommerce-valid-registration-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1659799417,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Register Link",
+            "match": {
+              "location": "Registration.user_click_on_Register_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 469760500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Select \"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Female",
+                  "offset": 13
+                }
+              ],
+              "location": "Registration.user_Select(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 701465542,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter \"Mona\" and \"Patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mona",
+                  "offset": 12
+                },
+                {
+                  "val": "Patel",
+                  "offset": 23
+                }
+              ],
+              "location": "Registration.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 426360583,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on DataOfBirth and Enter \"23\",\"March\",\"2009\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 37
+                },
+                {
+                  "val": "March",
+                  "offset": 42
+                },
+                {
+                  "val": "2009",
+                  "offset": 50
+                }
+              ],
+              "location": "Registration.user_click_on_DataOfBirth_and_Enter(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65723125,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Enter a \"Mona123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mona123@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "Registration.user_Enter_a(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1152341459,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Enter \"UnifyTesting Company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UnifyTesting Company",
+                  "offset": 12
+                }
+              ],
+              "location": "Registration.user_Enter(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1582648000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User able to Enter\"Mona@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mona@123",
+                  "offset": 19
+                }
+              ],
+              "location": "Registration.user_able_to_Enter(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346129875,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter a\"Mona@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mona@123",
+                  "offset": 13
+                }
+              ],
+              "location": "Registration.user_enter_a(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2361332625,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on Register Button",
+            "match": {
+              "location": "Registration.click_on_Register_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192922667,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User close the browser",
+            "match": {
+              "location": "Registration.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6726198625,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to open Browser",
+            "match": {
+              "location": "Registration.user_able_to_open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1190513500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter Url",
+            "match": {
+              "location": "Registration.enter_Url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": ":NopCommerce Valid Registration Test",
+        "description": "",
+        "id": "nopcommerce-register;:nopcommerce-valid-registration-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29852250,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d113.0.5672.92)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Monas-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:4c1:73b0:f4d5:66b6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.3\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/sc/2bb0v27s497...}, goog:chromeOptions: {debuggerAddress: localhost:53018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 8f250f3dfc02616ee36c1402616f7759\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat StepDefinition.Registration.user_click_on_Register_Link(Registration.java:31)\n\tat ✽.Then User click on Register Link(Registration.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User click on Register Link",
+            "match": {
+              "location": "Registration.user_click_on_Register_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Select \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Male",
+                  "offset": 13
+                }
+              ],
+              "location": "Registration.user_Select(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enter \"Dhaval\" and \"Patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dhaval",
+                  "offset": 12
+                },
+                {
+                  "val": "Patel",
+                  "offset": 25
+                }
+              ],
+              "location": "Registration.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click on DataOfBirth and Enter \"12\",\"May\",\"2007\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 37
+                },
+                {
+                  "val": "May",
+                  "offset": 42
+                },
+                {
+                  "val": "2007",
+                  "offset": 48
+                }
+              ],
+              "location": "Registration.user_click_on_DataOfBirth_and_Enter(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User Enter a \"mona@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mona@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "Registration.user_Enter_a(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User Enter \"xyz testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz testing",
+                  "offset": 12
+                }
+              ],
+              "location": "Registration.user_Enter(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User able to Enter\"dhaval123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhaval123",
+                  "offset": 19
+                }
+              ],
+              "location": "Registration.user_able_to_Enter(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enter a\"dhaval123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhaval123",
+                  "offset": 13
+                }
+              ],
+              "location": "Registration.user_enter_a(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click on Register Button",
+            "match": {
+              "location": "Registration.click_on_Register_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User close the browser",
+            "match": {
+              "location": "Registration.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NopCommerce Register",
+    "description": "",
+    "id": "nopcommerce-register",
+    "keyword": "Feature",
+    "uri": "Registration.feature"
+  }
+]

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="4" time="72.725048">
+<testcase classname="NopCommerce Login" name="NopCommerce Valid Login Test" time="10.815429">
+<failure message="org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=113.0.5672.92)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Monas-MacBook-Pro.local', ip: 'fe80:0:0:0:4c1:73b0:f4d5:66b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3', java.version: '1.8.0_351'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/sc/2bb0v27s497...}, goog:chromeOptions: {debuggerAddress: localhost:52663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 14a03e05dfbcfeda0f2da2990cf80b1b&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#10;&#9;at StepDefinition.Login.enter_url(Login.java:23)&#10;&#9;at ✽.And Enter url(Login.feature:4)&#10;"><![CDATA[Given User able to Open Browser.............................................passed
+And Enter url...............................................................failed
+When User click on Login Link...............................................skipped
+Then User on Login Page and Verify Login page Title.........................skipped
+And user enter "minalthakor1223@gmail.com" and "Mona23" and click on login button.skipped
+Then User is on Home Page...................................................skipped
+And User close the Browser..................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Monas-MacBook-Pro.local', ip: 'fe80:0:0:0:4c1:73b0:f4d5:66b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/sc/2bb0v27s497...}, goog:chromeOptions: {debuggerAddress: localhost:52663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14a03e05dfbcfeda0f2da2990cf80b1b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at StepDefinition.Login.enter_url(Login.java:23)
+	at ✽.And Enter url(Login.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="NopCommerce Login" name="User Enter Invalid Login Test" time="32.356742">
+<skipped><![CDATA[Given User able to Open Browser.............................................passed
+And Enter url...............................................................passed
+When user Click on LoginButton..............................................undefined
+And User on login Page and Verify Login page Title..........................undefined
+And User Enter InValid"123@.com"and Enter a valid"mona" and click on LoginButton.undefined
+Then User Should not LoginPage..............................................undefined
+Then User Close Browser.....................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="NopCommerce Register" name=":NopCommerce Valid Registration Test" time="21.606313">
+<system-out><![CDATA[Given User able to open Browser.............................................passed
+And Enter Url...............................................................passed
+Then User click on Register Link............................................passed
+Then User Select "Female"...................................................passed
+When User enter "Mona" and "Patel"..........................................passed
+And User click on DataOfBirth and Enter "23","March","2009".................passed
+And User Enter a "Mona123@gmail.com"........................................passed
+And User Enter "UnifyTesting Company".......................................passed
+And User able to Enter"Mona@123"............................................passed
+And User enter a"Mona@123"..................................................passed
+And click on Register Button................................................passed
+Then User close the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Register" name=":NopCommerce Valid Registration Test 2" time="7.946564">
+<failure message="org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=113.0.5672.92)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Monas-MacBook-Pro.local', ip: 'fe80:0:0:0:4c1:73b0:f4d5:66b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3', java.version: '1.8.0_351'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/sc/2bb0v27s497...}, goog:chromeOptions: {debuggerAddress: localhost:53018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8f250f3dfc02616ee36c1402616f7759&#10;*** Element info: {Using=xpath, value=/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a}&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at StepDefinition.Registration.user_click_on_Register_Link(Registration.java:31)&#10;&#9;at ✽.Then User click on Register Link(Registration.feature:6)&#10;"><![CDATA[Given User able to open Browser.............................................passed
+And Enter Url...............................................................passed
+Then User click on Register Link............................................failed
+Then User Select "Male".....................................................skipped
+When User enter "Dhaval" and "Patel"........................................skipped
+And User click on DataOfBirth and Enter "12","May","2007"...................skipped
+And User Enter a "mona@gmail.com"...........................................skipped
+And User Enter "xyz testing"................................................skipped
+And User able to Enter"dhaval123"...........................................skipped
+And User enter a"dhaval123".................................................skipped
+And click on Register Button................................................skipped
+Then User close the browser.................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Monas-MacBook-Pro.local', ip: 'fe80:0:0:0:4c1:73b0:f4d5:66b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/sc/2bb0v27s497...}, goog:chromeOptions: {debuggerAddress: localhost:53018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f250f3dfc02616ee36c1402616f7759
+*** Element info: {Using=xpath, value=/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at StepDefinition.Registration.user_click_on_Register_Link(Registration.java:31)
+	at ✽.Then User click on Register Link(Registration.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
